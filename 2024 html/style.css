@@ -1,0 +1,88 @@
+body{
+	background-color: green;
+}
+#header{
+	background-image: linear-gradient(white, green);
+	text-align: center;
+	color: white;
+	font-size: 60px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+	width: 75%;
+	margin: 0 auto 0 auto;
+	border-radius: 10px 10px 0px 0px;
+}
+#header h1{
+	font-size: 75px;
+}
+#main{
+	background-image: linear-gradient(green, white);
+	text-align: center;
+	color: #1A3300;
+	font-size: 30px;
+	width: 75%;
+	height: 1450px;
+	margin: 0 auto 0 auto;
+	
+	
+}
+
+#valaszt{
+	background-color: green;
+	font-size: 20px;
+	text-align: center;
+	width:75%;
+	border-radius: 10px 10px 10px 10px;
+	margin: 0 auto 0 auto;
+}
+#valaszt ul li{
+		display: inline;
+		padding-right: 8.5%;
+		padding-left: 8.5%;
+}
+a:link {
+   color: white;
+}
+a:hover {
+   color: #64ff7a;
+}
+
+
+#valaszt a{
+	text-decoration: none;
+}
+#valaszt p{
+}
+
+#eler{
+	background-image: linear-gradient(green, white);
+	color: #1A3300;
+	font-size: 30px;
+	width: 75%;
+	height: 600px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+table{
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+#footer{
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: white;
+	border-radius: 0px 0px 10px 10px;
+}
+#Premain{
+	background-image: linear-gradient(green, white);
+	text-align: center;
+	color: #1A3300;
+	font-size: 30px;
+	width: 75%;
+	height: 1100px;
+	margin: 0 auto 0 auto;
+}
