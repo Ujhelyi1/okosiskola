@@ -40,7 +40,7 @@ body{
 		padding-right: 8.5%;
 		padding-left: 8.5%;
 }
-a:link {
+a:visited {
    color: white;
 }
 a:hover {
@@ -59,7 +59,7 @@ a:hover {
 	color: #1A3300;
 	font-size: 30px;
 	width: 75%;
-	height: 600px;
+	height: 690px;
 	margin: 0 auto 0 auto;
 	text-align: center;
 }
@@ -68,6 +68,27 @@ table{
 	text-align: center;
 	margin: 0 auto;
 
+}
+table a{
+	text-decoration: none;
+}
+
+#balszel{
+	background-color:white;
+	text-align: center;
+	width: 10%;
+	margin: 0% 2%;
+	background-image: linear-gradient(to right, white , green);
+	color: #1A3300;
+}
+
+#balszel
+	a:visited{
+		color:#1A3300;
+}
+#balszel
+	a:hover{
+		color:#64ff7a;
 }
 
 #footer{
