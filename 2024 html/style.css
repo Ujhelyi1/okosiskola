@@ -1,54 +1,72 @@
-body{
-	background-color: green;
+@font-face {
+	font-family: 'nexa';
+	src: url('Nexa-ExtraLight.ttf');
 }
-#header{
-	background-image: linear-gradient(white, green);
+
+html{
+	font-family: 'nexa';
+}
+body{
+	background-color: rgb(135, 179, 83);
+}
+
+.ossz{
+	background-color:rgb(86, 122, 52) ;
+	border-radius: 20px;
+	width: 75%;
+	margin: 0 auto;
+	box-shadow: 4px 4px 8px rgb(77, 107, 43);
+}
+
+.header{
+	background-color: rgb(86, 122, 52);
 	text-align: center;
 	color: white;
 	font-size: 60px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-	width: 75%;
 	margin: 0 auto 0 auto;
-	border-radius: 10px 10px 0px 0px;
+	border-radius: 15px 15px 0px 0px;
 }
-#header h1{
+.header h1{
 	font-size: 75px;
 }
-#main{
-	background-image: linear-gradient(green, white);
-	text-align: center;
-	color: #1A3300;
-	font-size: 30px;
-	width: 75%;
-	height: 1450px;
-	margin: 0 auto 0 auto;
-}
-
-#img{
-	filter: blur(5px);
+.main #index{
+	background-image: url('budai.png');
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-position: fixed;
+	background-size: 50%;
 	background-position: center;
 }
-
-
-#main p{
-	width: 30%;
+.main{
+	background-image: url('budai.png');
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
 }
-
-#valaszt{
-	background-color: green;
-	font-size: 20px;
+.main #prezi{
 	text-align: center;
-	width:75%;
-	border-radius: 10px 10px 10px 10px;
-	margin: 0 auto 0 auto;
+
 }
-#valaszt ul li{
+
+.main p{
+	color:rgb(0, 0, 0);
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: justify;
+}
+
+.valaszt{
+	background-color: rgb(86, 122, 52);
+	font-size: 25px;
+	text-align: center;
+	margin: 0 auto;
+}
+.valaszt ul li{
 		display: inline;
-		padding-right: 8.5%;
-		padding-left: 8.5%;
+		padding-right: 6.5%;
+		padding-left: 6.5%;
 }
 a {
 	color:white;
@@ -57,70 +75,47 @@ a:visited {
    color: white;
 }
 a:hover {
-   color: #64ff7a;
+	color: rgb(149, 192, 100);
+	text-shadow: 0 0 3px rgb(150, 224, 64);
 }
 
 
-#valaszt a{
+.valaszt a{
 	text-decoration: none;
 }
-#valaszt p{
-}
 
-#eler{
-	background-image: linear-gradient(green, white);
+.eler{
+	background-color:#87b353 ;
 	color: #1A3300;
 	font-size: 30px;
 	width: 75%;
-	height: 690px;
 	margin: 0 auto 0 auto;
 	text-align: center;
 }
 
 table{
-	border:solid 1px black;
 	text-align: center;
 	margin: 0 auto;
-	border-radius: 10px 10px 10px 10px;
-	
-
 }
 table a{
 	text-decoration: none;
 }
 
-#balszel{
-	background-color:white;
-	text-align: center;
-	width: 10%;
-	margin: 0% 2%;
-	background-image: linear-gradient(to right, white , green);
-	color: #1A3300;
-	border-radius: 10px 0px 0px 10px;
-}
-
-#balszel
-	a:visited{
-		color:#1A3300;
-}
-#balszel
-	a:hover{
-		color:#64ff7a;
-}
-
-#footer{
-	width: 75%;
+.footer{
 	margin: 0 auto;
 	text-align: center;
-	background-color: white;
+	background-color:rgb(86, 122, 52) ;
 	border-radius: 0px 0px 10px 10px;
 }
-#Premain{
-	background-image: linear-gradient(green, white);
+.footer img{
+	width: 45px;
+}
+.Premain{
+	background-color:rgb(135, 179, 83) ;
 	text-align: center;
 	color: #1A3300;
 	font-size: 30px;
-	width: 75%;
 	height: 1100px;
 	margin: 0 auto 0 auto;
 }
+
